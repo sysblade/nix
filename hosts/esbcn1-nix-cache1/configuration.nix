@@ -4,7 +4,6 @@
   imports = [
     ./hardware.nix
     ../../modules/core/server/default.nix
-    ../../modules/devenv/default.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
