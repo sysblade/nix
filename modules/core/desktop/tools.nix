@@ -2,25 +2,25 @@
 
 {
   environment.systemPackages = with pkgs; [
-    google-chrome
-    libreoffice
-    nextcloud-client
-    wezterm
-    vscode
-    ffmpeg-full
-    vlc
-    yt-dlp
-    calibre
     aspell
     aspellDicts.en
-    aspellDicts.fr
     aspellDicts.es
+    aspellDicts.fr
+    calibre
+    ffmpeg-full
+    gimp3-with-plugins
+    google-chrome
     hunspell
     hunspellDicts.en-us-large
-    hunspellDicts.fr-moderne
     hunspellDicts.es-es
+    hunspellDicts.fr-moderne
+    libreoffice
+    nextcloud-client
+    vlc
+    vscode
+    wezterm
     wireshark
-    gimp3-with-plugins
+    yt-dlp
   ];
 
   fonts = {
@@ -28,8 +28,8 @@
     packages = with pkgs; [
       fira-sans
       nerd-fonts._0xproto
-      nerd-fonts.fira-code
       nerd-fonts.droid-sans-mono
+      nerd-fonts.fira-code
     ];
     fontconfig = {
       defaultFonts = {

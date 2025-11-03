@@ -7,67 +7,68 @@
   environment.systemPackages = with pkgs; [
 
     # CLI utilities
-    time
     bat
-    fd
-    ripgrep
-    neofetch
-    jq
-    yq-go
     eza
-    fzf
+    fd
     file
-    which
-    tree
-    gnutar
+    fzf
     gawk
     gnupg
+    gnutar
+    jq
+    neofetch
+    ripgrep
+    time
     tokei
+    tree
+    which
+    yq-go
 
     # Nix related tools
+    direnv
     nil
     nixd
     nixfmt-rfc-style
-    direnv
 
     # HTTP clients
-    wget
     curl
     httpie
+    wget
 
     # Monitoring
-    htop
+    acpi
     btop
-    iotop
-    iftop
-    ncdu
-    sysstat
-    lm_sensors
     dnsutils
-    strace
+    htop
+    iftop
+    iotop
+    lm_sensors
     lsof
     ltrace
-    sysstat
+    ncdu
     pciutils
-    usbutils
+    strace
+    sysstat
+    sysstat
     tcpdump
+    usbutils
 
     # Backup and storage management
     kopia
     rclone
 
     # Archiving
-    zip
-    xz
-    unzip
     p7zip
+    unzip
+    xz
+    zip
     zstd
 
     # Basic development tools
     git
-    vim
     go-task
     lunarvim
+    vim
   ];
 
   programs.neovim = {

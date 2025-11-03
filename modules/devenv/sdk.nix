@@ -3,34 +3,34 @@
 {
 
   environment.systemPackages = with pkgs; [
-    gnumake
+    act
     clang
-    llvmPackages.libcxxClang
-    gcc
-    go
-    gox
     delve
+    gcc
+    gnumake
+    go
     golangci-lint
     gopls
     gotests
+    gox
     impl
+    libpq
+    libyaml
+    libyaml.dev
+    llvmPackages.libcxxClang
+    nodejs_24
+    perl
+    poetry
+    postgresql
+    postgresql.pg_config
     python313Full
     python313Packages.pip
     python313Packages.virtualenv
-    poetry
-    uv
-    ruby_3_4
-    zulu24
-    perl
-    postgresql
-    postgresql.pg_config
-    libpq
-    terraform
     qemu
-    nodejs_24
-    libyaml
-    libyaml.dev
-    act
+    ruby_3_4
+    terraform
+    uv
+    zulu24
   ];
 
   # Ensure common native builds (Ruby gems, Rust bindgen) can find required headers/libs.

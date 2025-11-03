@@ -10,11 +10,11 @@
   services.printing = {
     enable = true;
     drivers = with pkgs; [
-      cups-filters
+      brlaser
       cups-browsed
+      cups-filters
       gutenprint
       gutenprintBin
-      brlaser
     ];
   };
 }
