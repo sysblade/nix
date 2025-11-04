@@ -19,6 +19,7 @@
     neofetch
     parted
     ripgrep
+    sipcalc
     time
     tokei
     tree
