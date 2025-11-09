@@ -19,7 +19,7 @@
     vlc
     vscode
     wezterm
-    winbox
+    winbox4
     wireshark
     yt-dlp
   ];
