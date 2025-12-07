@@ -51,4 +51,10 @@
   };
   programs.firefox.enable = true;
   programs.thunderbird.enable = true;
+
+  services.flatpak.enable = true;
+
+  nixpkgs.config.permittedInsecurePackages = [
+    "electron-36.9.5"
+  ];
 }

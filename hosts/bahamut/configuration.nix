@@ -51,13 +51,4 @@
       Environment = "SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=false";
     };
   };
-
-  nix.settings = {
-    substituters = [ "https://nix-citizen.cachix.org" ];
-    trusted-public-keys = [ "nix-citizen.cachix.org-1:lPMkWc2X8XD4/7YPEEwXKKBg+SVbYTVrAaLA2wQTKCo=" ];
-  };
-
-  environment.systemPackages = with pkgs; [
-    inputs.nix-citizen.packages.${system}.star-citizen
-  ];
 }

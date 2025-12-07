@@ -5,8 +5,6 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     nix-gaming.url = "github:fufexan/nix-gaming";
-    nix-citizen.url = "github:LovingMelody/nix-citizen";
-    nix-citizen.inputs.nix-gaming.follows = "nix-gaming";
     home-manager.url = "github:nix-community/home-manager";
   };
 
