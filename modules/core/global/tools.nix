@@ -25,6 +25,7 @@
     tree
     which
     yq-go
+    whois
 
     # Nix related tools
     direnv
