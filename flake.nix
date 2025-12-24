@@ -29,6 +29,12 @@
             ./hosts/esbcn1-nas1/configuration.nix
           ];
         };
+        esbcn1-media1 = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/esbcn1-media1/configuration.nix
+          ];
+        };
         garuda = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
