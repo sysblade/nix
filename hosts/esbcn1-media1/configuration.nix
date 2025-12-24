@@ -25,4 +25,9 @@
     enable = true;
     openFirewall = true;
   };
+
+  fileSystems."/mnt/esbcn1-nas1/mnt/dpool/public" = {
+    device = "192.168.89.180:/mnt/dpool/pulic";
+    fsType = "nfs";
+  };
 }
