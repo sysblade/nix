@@ -23,14 +23,12 @@
     poetry
     postgresql
     postgresql.pg_config
-    python313Full
-    python313Packages.pip
-    python313Packages.virtualenv
+    python314
     qemu
     ruby_3_4
     terraform
     uv
-    zulu24
+    zulu
   ];
 
   # Ensure common native builds (Ruby gems, Rust bindgen) can find required headers/libs.
