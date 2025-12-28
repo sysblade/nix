@@ -35,7 +35,5 @@
     enable = true;
     torrentingPort = 51413;
     webuiPort = 8080;
-    user = "media";
-    group = "media";
   };
 }
