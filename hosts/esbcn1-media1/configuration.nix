@@ -30,4 +30,11 @@
     device = "192.168.89.180:/mnt/dpool/public";
     fsType = "nfs";
   };
+  
+  services.qbittorrent = {
+    enable = true;
+    torrentingPort = 51413;
+    webuiPort = 8080;
+    openFirewall = true;
+  };
 }
