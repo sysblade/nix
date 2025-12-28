@@ -103,7 +103,8 @@
   systemd.timers."kopia-backup" = {
     wantedBy = [ "timers.target" ];
     timerConfig = {
-      OnUnitActiveSec = "1d";
+      OnCalendar = "daily";
+      Persistent = true;
       Unit = "kopia-backup.service";
     };
   };
