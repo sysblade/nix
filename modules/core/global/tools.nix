@@ -36,6 +36,7 @@
     dnsutils
     httpie
     inetutils
+    nmap
     openssl
     sipcalc
     tcpdump
