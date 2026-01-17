@@ -18,6 +18,7 @@
     jq
     neofetch
     parted
+    pwgen
     ripgrep
     time
     tokei
