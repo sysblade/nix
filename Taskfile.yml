@@ -23,3 +23,15 @@ tasks:
     desc: Update dependencies and lock file
     cmds:
       - nix flake update
+  optimize:
+    desc: Optimize the nix store
+    cmds:
+      - sudo nix-store --optimize
+  gc:
+    desc: Aggressive GC of the nix store (will delete all unused generations)
+    cmds:
+      - sudo nix-collect-garbage -d
+  repair:
+    desc: Repair the nix store
+    cmds:
+      - nix-store --verify --check-contents --repair
