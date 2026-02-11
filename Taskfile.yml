@@ -34,4 +34,4 @@ tasks:
   repair:
     desc: Repair the nix store
     cmds:
-      - nix-store --verify --check-contents --repair
+      - sudo nix-store --verify --check-contents --repair

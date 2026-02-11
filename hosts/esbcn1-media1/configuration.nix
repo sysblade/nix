@@ -27,10 +27,10 @@
   };
 
   fileSystems."/mnt/esbcn1-nas1/mnt/dpool/public" = {
-    device = "192.168.89.180:/mnt/dpool/public";
+    device = "192.168.131.2:/mnt/dpool/public";
     fsType = "nfs";
   };
-  
+
   services.qbittorrent = {
     enable = true;
     torrentingPort = 51413;
