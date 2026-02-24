@@ -77,8 +77,12 @@
     mountdPort = 4002;
     statdPort = 4000;
     exports = ''
-      /mnt/dpool/public 192.168.131.5(rw,no_subtree_check) 192.168.131.15(rw,no_subtree_check,no_root_squash) 192.168.131.16(rw,no_subtree_check,no_root_squash)
-      /mnt/dpool/pve 192.168.131.201(rw,no_subtree_check) 192.168.131.202(rw,no_subtree_check) 192.168.131.203(rw,no_subtree_check)
+      /mnt/dpool/public 192.168.131.5(rw,no_subtree_check)
+      /mnt/dpool/public 192.168.131.15(rw,no_subtree_check,no_root_squash)
+      /mnt/dpool/public 192.168.131.16(rw,no_subtree_check,no_root_squash)
+      /mnt/dpool/pve 192.168.131.201(rw,no_subtree_check)
+      /mnt/dpool/pve 192.168.131.202(rw,no_subtree_check)
+      /mnt/dpool/pve 192.168.131.203(rw,no_subtree_check)
       /mnt/dpool/pbs 192.168.131.4(sec=sys,rw,anonuid=0,anongid=0,no_root_squash,no_subtree_check)
     '';
   };
