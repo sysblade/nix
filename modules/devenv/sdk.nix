@@ -4,8 +4,11 @@
 
   environment.systemPackages = with pkgs; [
     act
+    arduino-ide
+    arduino-cli
     clang
     delve
+    esptool
     gcc
     gnumake
     go

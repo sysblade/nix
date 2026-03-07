@@ -20,7 +20,9 @@
     parted
     pwgen
     ripgrep
+    screen
     time
+    tmux
     tokei
     tree
     which
