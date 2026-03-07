@@ -6,8 +6,8 @@
     aspellDicts.en
     aspellDicts.es
     aspellDicts.fr
-    bitwarden-desktop
     bitwarden-cli
+    bitwarden-desktop
     cabextract
     calibre
     ffmpeg-full
@@ -21,15 +21,16 @@
     libreoffice
     nextcloud-client
     qFlipper
+    remmina
     vlc
     vscode
     wezterm
     winbox4
-    winetricks
     wineWowPackages.stable
+    winetricks
     wireshark
-    yt-dlp
     xkill
+    yt-dlp
   ];
 
   fonts = {
