@@ -22,6 +22,7 @@
     nextcloud-client
     qFlipper
     remmina
+    teams-for-linux
     vlc
     vscode
     wezterm
