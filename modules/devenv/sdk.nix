@@ -31,6 +31,7 @@
     python314
     qemu
     ruby_3_4
+    scaleway-cli
     terraform
     uv
     zulu
