@@ -7,6 +7,7 @@
   environment.systemPackages = with pkgs; [
 
     # CLI utilities
+    appimage-run
     bat
     eza
     fd
