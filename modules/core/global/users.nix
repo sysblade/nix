@@ -18,14 +18,14 @@
     ];
     shell = pkgs.zsh;
 
-    openssh.authorizedKeys.keys =
-      let
-        authorizedKeys = pkgs.fetchurl {
-          url = "https://codeberg.org/sysblade.keys";
-          sha256 = "sha256-4Y8H2fgNFEJXGKdWjJq5O9AcFoUxjJnWIh6xdqMfo4s=";
-        };
-      in
-      pkgs.lib.splitString "\n" (builtins.readFile authorizedKeys);
+#    openssh.authorizedKeys.keys =
+#      let
+#        authorizedKeys = pkgs.fetchurl {
+#          url = "https://codeberg.org/sysblade.keys";
+#          sha256 = "sha256-sha256-Px9QiqHDNLUjir/xsHFKJliTs+Qage8j3Y7oLBjoz/0=";
+#        };
+#      in
+#      pkgs.lib.splitString "\n" (builtins.readFile authorizedKeys);
 
   };
 }
